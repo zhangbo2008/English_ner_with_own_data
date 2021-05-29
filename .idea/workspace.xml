@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9127902c-8a49-42fd-a425-44c3e43aee6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/.idea/YOLOv4-pytorch-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/5555.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/INSTALL.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/browser_find_element_and_do_something.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/browser_open.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/browser_parse_dom2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/browser_session.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/config/yolov4_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/config/yolov4_myconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/data/66.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/data/CBAM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/data/SEnet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/data/det-result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/data/heatmap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/data/modelsize.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/data/results.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/data/test_annotation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/data/train_annotation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/dic_for_window_pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/env_variable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/eval/cocoapi_evaluator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/eval/evaluator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/eval/voc_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/eval_coco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/eval_voc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/install.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621135143.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621135822.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621135853.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621135902.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621136279.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621136329.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621136393.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621137375.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621137543.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621144025.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621144044.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621144785.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621145023.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621145452.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621145554.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621255412.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621320861.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621350926.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621387504.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621387550.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621387565.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621387630.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621387679.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621387922.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621387951.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621388196.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621388237.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621514224.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621515641.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621516098.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621517350.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621517935.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621518460.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1621518493.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1622195647.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1622195692.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1622195712.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1622211776.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/event/events.out.tfevents.1622242903.PC-202003302200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/log/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/YOLOv4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/backbones/CSPDarknet53.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/backbones/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/backbones/mobilenetv2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/backbones/mobilenetv3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/build_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/head/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/head/yolo_head.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/layers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/layers/activate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/layers/attention_layers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/layers/blocks_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/layers/conv_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/layers/global_context_block.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/layers/learnable_semantic_fusion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/loss/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/model/loss/yolo_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/onnx_transform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/train_with_my_own_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/111.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/coco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/coco_to_voc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/cocodataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/cosine_lr_scheduler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/data_augment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/datasets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/datasets_coco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/flops_counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/get_gt_txt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/get_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/gpu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/heatmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/imshowAtt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/kmeans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/modelsize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/torch_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/visualize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/voc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/utils/xml_to_txt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/video_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/weight/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master2/weight/mobilenetv2.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../browser_parse_dom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../browser_parse_dom2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../diff文件/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../diff文件/2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../diff文件/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nlp具体项目技术/tutorial2/reame.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../卓朗工作/卓朗rpa自己的方案/beta3/browser_parse_dom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/33333333.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/DealDataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/data/me_test.ann.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/data/me_test.ann.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/data/ner1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/data/ner2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/data/sentences.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/data/tags.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/data/time.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/data/time2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/data/time3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/kmp_for_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/modeling_albert22222222.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/ner中文最新代码.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/optim的使用方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/test66.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/activations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/activations_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/another_try.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/benchmark/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/benchmark/benchmark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/benchmark/benchmark_args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/benchmark/benchmark_args_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/benchmark/benchmark_args_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/benchmark/benchmark_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/benchmark/benchmark_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/benchmark_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/commands/convert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/commands/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/commands/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/commands/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/commands/serving.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/commands/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/commands/transformers_cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/commands/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_albert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_bart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_bert_generation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_camembert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_ctrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_distilbert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_dpr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_electra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_encoder_decoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_flaubert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_fsmt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_funnel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_gpt2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_layoutlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_longformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_lxmert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_marian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_mbart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_mmbt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_mobilebert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_openai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_pegasus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_rag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_reformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_retribert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_t5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_transfo_xl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_xlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_xlm_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/configuration_xlnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_albert_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_bart_original_pytorch_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_bert_original_tf2_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_bert_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_bert_pytorch_checkpoint_to_original_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_dialogpt_original_pytorch_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_dpr_original_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_electra_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_fsmt_original_pytorch_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_funnel_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_gpt2_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_graph_to_onnx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_longformer_original_pytorch_lightning_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_lxmert_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_marian_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_mbart_original_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_mobilebert_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_openai_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_pegasus_tf_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_pytorch_checkpoint_to_tf2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_reformer_trax_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_roberta_original_pytorch_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_t5_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_tf_hub_seq_to_seq_bert_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_transfo_xl_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_xlm_original_pytorch_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/convert_xlnet_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/data/data_collator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/data/datasets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/data/datasets/glue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/data/datasets/language_modeling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/data/datasets/squad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/data/metrics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/data/metrics/squad_metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/data/processors/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/data/processors/glue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/data/processors/squad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/data/processors/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/data/processors/xnli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/data/test_generation_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/file_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/filep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/generation_tf_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/generation_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/hf_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/hf_argparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/integrations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modelcard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_albert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_bart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_beam_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_bert_generation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_camembert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_ctrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_distilbert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_dpr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_electra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_encoder_decoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_flaubert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_fsmt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_funnel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_gpt2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_layoutlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_longformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_lxmert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_marian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_mbart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_mmbt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_mobilebert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_openai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_outputs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_pegasus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_rag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_reformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_retribert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_t5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_albert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_camembert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_ctrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_distilbert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_electra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_flaubert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_funnel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_gpt2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_longformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_lxmert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_mobilebert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_openai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_outputs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_pytorch_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_t5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_transfo_xl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_transfo_xl_utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_xlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_xlm_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_tf_xlnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_transfo_xl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_transfo_xl_utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_xlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_xlm_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/modeling_xlnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/optimization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/optimization_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/retrieval_rag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/testing_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_albert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_bart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_bert_generation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_bert_japanese.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_bertweet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_camembert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_ctrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_distilbert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_dpr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_electra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_flaubert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_fsmt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_funnel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_gpt2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_layoutlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_longformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_lxmert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_marian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_mbart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_mobilebert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_openai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_pegasus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_phobert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_rag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_reformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_retribert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_t5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_transfo_xl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_utils_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_utils_fast.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_xlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_xlm_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/tokenization_xlnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/trainer_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/trainer_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/training_args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/training_args_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/try.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/utils/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/transformers2/utils_encoder_decoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/wiki80_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/不变版本1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner任务最新代码/字典fordebyug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/摘要中找keyword.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/33333333.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DealDataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albert字典" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/me_test.ann.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/me_test.ann.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ner1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ner2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sentences.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tags.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/time.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/time2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/time3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kmp_for_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modeling_albert22222222.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ner中文最新代码.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/optim的使用方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test66.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/activations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/benchmark/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/benchmark/benchmark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/benchmark/benchmark_args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/benchmark/benchmark_args_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/benchmark/benchmark_args_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/benchmark/benchmark_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/benchmark/benchmark_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/commands/convert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/commands/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/commands/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/commands/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/commands/serving.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/commands/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/commands/transformers_cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/commands/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_albert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_bart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_camembert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_ctrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_distilbert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_dpr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_electra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_encoder_decoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_flaubert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_gpt2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_longformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_marian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_mbart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_mmbt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_mobilebert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_openai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_pegasus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_reformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_retribert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_t5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_transfo_xl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_xlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_xlm_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/configuration_xlnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_albert_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_bart_original_pytorch_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_bert_original_tf2_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_bert_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_bert_pytorch_checkpoint_to_original_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_dialogpt_original_pytorch_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_dpr_original_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_electra_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_gpt2_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_graph_to_onnx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_longformer_original_pytorch_lightning_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_marian_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_mbart_original_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_mobilebert_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_openai_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_pegasus_tf_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_pytorch_checkpoint_to_tf2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_reformer_trax_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_roberta_original_pytorch_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_t5_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_transfo_xl_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_xlm_original_pytorch_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/convert_xlnet_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/data/data_collator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/data/datasets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/data/datasets/glue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/data/datasets/language_modeling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/data/datasets/squad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/data/metrics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/data/metrics/squad_metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/data/processors/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/data/processors/glue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/data/processors/squad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/data/processors/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/data/processors/xnli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/data/test_generation_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/file_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/generation_tf_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/generation_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/hf_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/hf_argparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/integrations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modelcard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_albert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_bart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_camembert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_ctrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_distilbert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_dpr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_electra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_encoder_decoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_flaubert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_gpt2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_longformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_marian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_mbart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_mmbt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_mobilebert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_openai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_outputs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_pegasus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_reformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_retribert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_t5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_albert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_camembert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_ctrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_distilbert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_electra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_flaubert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_gpt2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_longformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_mobilebert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_openai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_outputs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_pytorch_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_t5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_transfo_xl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_transfo_xl_utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_xlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_xlm_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_tf_xlnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_transfo_xl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_transfo_xl_utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_xlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_xlm_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/modeling_xlnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/optimization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/optimization_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/testing_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_albert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_bart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_bert_japanese.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_camembert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_ctrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_distilbert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_dpr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_electra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_flaubert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_gpt2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_longformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_marian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_mbart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_mobilebert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_openai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_pegasus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_reformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_retribert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_t5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_transfo_xl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_utils_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_utils_fast.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_xlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_xlm_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/tokenization_xlnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/trainer_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/trainer_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/training_args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/training_args_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/utils/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/activations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/activations_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/another_try.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/benchmark/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/benchmark/benchmark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/benchmark/benchmark_args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/benchmark/benchmark_args_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/benchmark/benchmark_args_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/benchmark/benchmark_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/benchmark/benchmark_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/benchmark_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/commands/convert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/commands/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/commands/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/commands/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/commands/serving.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/commands/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/commands/transformers_cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/commands/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_albert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_bart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_bert_generation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_camembert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_ctrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_distilbert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_dpr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_electra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_encoder_decoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_flaubert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_fsmt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_funnel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_gpt2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_layoutlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_longformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_lxmert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_marian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_mbart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_mmbt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_mobilebert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_openai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_pegasus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_rag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_reformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_retribert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_t5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_transfo_xl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_xlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_xlm_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/configuration_xlnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_albert_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_bart_original_pytorch_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_bert_original_tf2_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_bert_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_bert_pytorch_checkpoint_to_original_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_dialogpt_original_pytorch_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_dpr_original_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_electra_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_fsmt_original_pytorch_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_funnel_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_gpt2_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_graph_to_onnx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_longformer_original_pytorch_lightning_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_lxmert_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_marian_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_mbart_original_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_mobilebert_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_openai_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_pegasus_tf_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_pytorch_checkpoint_to_tf2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_reformer_trax_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_roberta_original_pytorch_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_t5_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_tf_hub_seq_to_seq_bert_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_transfo_xl_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_xlm_original_pytorch_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/convert_xlnet_original_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/data/data_collator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/data/datasets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/data/datasets/glue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/data/datasets/language_modeling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/data/datasets/squad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/data/metrics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/data/metrics/squad_metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/data/processors/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/data/processors/glue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/data/processors/squad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/data/processors/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/data/processors/xnli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/data/test_generation_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/file_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/filep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/generation_tf_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/generation_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/hf_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/hf_argparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/integrations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modelcard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_albert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_bart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_beam_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_bert_generation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_camembert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_ctrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_distilbert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_dpr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_electra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_encoder_decoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_flaubert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_fsmt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_funnel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_gpt2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_layoutlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_longformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_lxmert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_marian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_mbart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_mmbt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_mobilebert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_openai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_outputs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_pegasus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_rag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_reformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_retribert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_t5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_albert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_camembert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_ctrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_distilbert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_electra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_flaubert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_funnel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_gpt2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_longformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_lxmert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_mobilebert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_openai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_outputs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_pytorch_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_t5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_transfo_xl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_transfo_xl_utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_xlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_xlm_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_tf_xlnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_transfo_xl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_transfo_xl_utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_xlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_xlm_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/modeling_xlnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/optimization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/optimization_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/retrieval_rag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/testing_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_albert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_bart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_bert_generation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_bert_japanese.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_bertweet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_camembert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_ctrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_distilbert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_dpr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_electra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_flaubert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_fsmt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_funnel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_gpt2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_layoutlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_longformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_lxmert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_marian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_mbart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_mobilebert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_openai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_pegasus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_phobert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_rag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_reformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_retribert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_t5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_transfo_xl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_utils_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_utils_fast.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_xlm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_xlm_roberta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/tokenization_xlnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/trainer_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/trainer_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/training_args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/training_args_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/try.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/utils/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers2/utils_encoder_decoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wiki80_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/不变版本1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/字典fordebyug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/fairseq-gec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/fairseq-gec.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/log/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/model/YOLOv4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/model/YOLOv4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/model/head/yolo_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/model/head/yolo_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/model/loss/yolo_loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/model/loss/yolo_loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/utils/datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/utils/datasets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/utils/voc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../YOLOv4-pytorch-master/utils/voc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../卓朗工作/ner任务/ner中文最新代码.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../卓朗工作/ner任务/ner中文最新代码.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1tBw1Y0cE3V3sqIB4Cwaok10LOR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="摘要中找keyword" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9127902c-8a49-42fd-a425-44c3e43aee6d" name="Default Changelist" comment="" />
+      <created>1622255575085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622255575085</updated>
+      <workItem from="1622255576393" duration="4004000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="380" y="150" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622258187651">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="380" y="150" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1622258187651" />
+    <state x="368" y="94" width="865" height="586" key="#xdebugger.evaluate" timestamp="1622259481688">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="368" y="94" width="865" height="586" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1622259481688" />
+    <state width="1278" height="440" key="DebuggerActiveHint" timestamp="1622257890274">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1278" height="440" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1622257890274" />
+    <state width="1237" height="165" key="GridCell.Tab.0.bottom" timestamp="1622259736086">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="165" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622259736086" />
+    <state width="1237" height="165" key="GridCell.Tab.0.center" timestamp="1622259736086">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="165" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1622259736086" />
+    <state width="1237" height="165" key="GridCell.Tab.0.left" timestamp="1622259736086">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="165" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1622259736086" />
+    <state width="1237" height="165" key="GridCell.Tab.0.right" timestamp="1622259736086">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="165" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1622259736086" />
+    <state width="1237" height="165" key="GridCell.Tab.1.bottom" timestamp="1622259736087">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="165" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622259736087" />
+    <state width="1237" height="165" key="GridCell.Tab.1.center" timestamp="1622259736087">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="165" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1622259736087" />
+    <state width="1237" height="165" key="GridCell.Tab.1.left" timestamp="1622259736087">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="165" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1622259736087" />
+    <state width="1237" height="165" key="GridCell.Tab.1.right" timestamp="1622259736087">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="165" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1622259736087" />
+    <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1622255612886">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="647" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1622255612886" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>230</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="tokenizer" />
+        <watch expression="tokenizer.get_vocab()" />
+        <watch expression="torch.tensor([1] * encoding.size(1)).unsqueeze(0)" />
+        <watch expression=" torch.tensor([1] * encoding.size(0)).unsqueeze(0) " />
+        <watch expression="torch.tensor([1] * encoding.size(0))    " />
+        <watch expression="kmp(encoding,[1,23])" />
+        <watch expression=" encoding,self.tokenizer( text) " />
+        <watch expression="self.tokenizer( text, return_tensors='pt')['input_ids'][0]" />
+        <watch expression=" self.tokenizer( text, return_tensors='pt')['input_ids'][0][1:-1]  " />
+        <watch expression=" kmp(   encoding,   self.tokenizer( j, return_tensors='pt')['input_ids'][0][1:-1]  )" />
+        <watch expression=" self.tokenizer( j, return_tensors='pt')['input_ids'][0][1:-1]" />
+        <watch expression=" encoding" />
+        <watch expression="self.tokenizer( j, return_tensors='pt')['input_ids'][0][1:-1]" />
+        <watch expression="type(mom_string) != type(test)" />
+        <watch expression=" type(test)" />
+        <watch expression="type(mom_string)" />
+        <watch expression=" self.tokenizer( j, return_tensors='pt')['input_ids'][0]" />
+        <watch expression="self.tokenizer( j, return_tensors='pt')['input_ids'][0][1:-1] " />
+        <watch expression="out[listFortagIndex:listFortagIndex+len(obj)]" />
+        <watch expression=" out[listFortagIndex:listFortagIndex+len(obj)]   " />
+        <watch expression="out[listFortagIndex:kk+len(obj)]" />
+        <watch expression=" kk+len(obj) " />
+        <watch expression="listFortagIndex" />
+        <watch expression="out" />
+        <watch expression="out[kk+1:  kk+len(obj) ] " />
+        <watch expression="self.tokenizer( text, return_tensors='pt')['input_ids']" />
+        <watch expression="self.tokenizer( text, return_tensors='pt')['attention_mask']" />
+        <watch expression="out.unsqueeze(0)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/keyword$main.coverage" NAME="main Coverage Results" MODIFIED="1622259580101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
